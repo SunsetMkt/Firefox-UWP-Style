@@ -540,6 +540,7 @@ panel[position*="bottomleft"] {
 #urlbar[breakout][breakout-extend] {
 	width: var(--urlbar-width) !important;
 	margin: 0px !important;
+	margin-top: 1px !important;
 }
 #searchbar:focus-within {
 	outline: none !important;
@@ -600,8 +601,8 @@ panel[position*="bottomleft"] {
 		border: 1px solid transparent !important;
 		background-clip: padding-box !important;
 		background-color: transparent !important;
-		padding-left: 1px !important;
-		padding-right: 1px !important;
+		padding-left: 9px !important;
+		padding-right: 9px !important;
 	}
 	.urlbar-input-container:hover, #searchbar:hover {
 		background-color: var(--uwp-navbar-background-hover) !important;
@@ -711,7 +712,9 @@ panel[position*="bottomleft"] {
 	color: var(--uwp-global-front) !important;
 }
 .urlbarView-action {
-	margin-block: -3px !important;
+	margin-block: 0px !important;
+	padding-block: 0px !important;
+	border: none !important;
 }
 .urlbarView-tip-help {
 	height: 28px !important;
@@ -1183,6 +1186,19 @@ sidebar-main {
 		:root[sizemode="maximized"] .titlebar-min {
 			
 		}
+	}
+}
+
+@media not (-moz-bool-pref: "uwp.sun-valley.searchmode-switcher") {
+	#urlbar-searchmode-switcher {
+		display: none !important;
+	}
+	.urlbar-input-container, #searchbar {
+		border: 1px solid transparent !important;
+		background-clip: padding-box !important;
+		background-color: transparent !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 }
 

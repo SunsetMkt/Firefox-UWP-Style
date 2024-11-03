@@ -639,6 +639,7 @@
 		border: none !important;
 		padding: 0px !important;
 		border-radius: var(--uwp-tags-control-radius) !important;
+		background-color: transparent !important;
 	}
 
 	/* Richlist Stuff */

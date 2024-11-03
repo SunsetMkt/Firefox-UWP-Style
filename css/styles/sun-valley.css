@@ -19,6 +19,8 @@
 	}
 }
 
+/* background-color: color-mix(in srgb, AccentColor 40%, var(--uwp-global-back)) !important; */
+
 @media (-moz-bool-pref: "uwp.sun-valley") {
 
 	:root {
