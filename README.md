@@ -43,7 +43,7 @@ Toggle `widget.non-native-theme.use-theme-accent` pref to enable accent color in
 
 ### Mica
 
-**Only supported on Firefox Nightly 133 and newer**
+**Only supported on Firefox 133 and newer**
 
 Requires [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) and only works with *Sun Valley* style
 

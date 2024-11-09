@@ -83,6 +83,10 @@
 #tabbrowser-tabs {
 	--tab-line-color: AccentColor !important;
 	--tab-loading-fill: AccentColor !important;
+
+	&[orient="horizontal"] {
+		min-height: 0px !important;
+	}
 }
 .tabbrowser-tab {
 	padding: 0px !important;
@@ -540,7 +544,6 @@ panel[position*="bottomleft"] {
 #urlbar[breakout][breakout-extend] {
 	width: var(--urlbar-width) !important;
 	margin: 0px !important;
-	margin-top: 1px !important;
 }
 #searchbar:focus-within {
 	outline: none !important;
