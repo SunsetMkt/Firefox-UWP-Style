@@ -832,9 +832,6 @@
 		margin-top: auto !important;
 		margin-bottom: auto !important;
 	}
-	.card-contents {
-		width: calc(var(--section-width) - var(--card-padding) * 4 - var(--addon-icon-size)) !important;
-	}
 	.disco-description-statistics, recommended-addon-card .addon-description {
 		margin-top: 4px !important;
 	}
