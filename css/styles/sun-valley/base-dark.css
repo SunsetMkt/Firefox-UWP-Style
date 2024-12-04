@@ -40,6 +40,11 @@
 	--button-active-bgcolor: var(--panelview-toolbarbutton-active-bgcolor) !important;
 
 	--lwt-sidebar-background-color: var(--uwp-global-back) !important;
+
+	--uwp-titlebar-stroke: #FFFFFF;
+	--uwp-titlebar-stroke-hover: #FFFFFF;
+	--uwp-titlebar-stroke-active: #CFCFCF;
+	--uwp-titlebar-stroke-inactive: #717171;
 }
 
 :root:-moz-window-inactive {

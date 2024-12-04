@@ -42,6 +42,11 @@
 	--lwt-sidebar-background-color: var(--uwp-global-back) !important;
 
 	--tab-selected-bgcolor: var(--uwp-background-fill-base) !important;
+
+	--uwp-titlebar-stroke: #191919;
+	--uwp-titlebar-stroke-hover: #191919;
+	--uwp-titlebar-stroke-active: #606060;
+	--uwp-titlebar-stroke-inactive: #9b9b9b;
 }
 
 :root:-moz-window-inactive {

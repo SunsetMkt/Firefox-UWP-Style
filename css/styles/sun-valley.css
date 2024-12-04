@@ -241,6 +241,10 @@
 		--uwp-popup-margin: -4px 0px 0px -10px;
 
 		--uwp-bottom-background: var(--uwp-control-fill-secondary);
+
+		--uwp-titlebar-background: var(--uwp-subtle-fill-transparent);
+		--uwp-titlebar-background-hover: var(--uwp-subtle-fill-secondary);
+		--uwp-titlebar-background-active: var(--uwp-subtle-fill-tertiary);
 	}
 
 	:root {

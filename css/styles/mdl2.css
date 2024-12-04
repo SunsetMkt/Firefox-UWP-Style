@@ -215,6 +215,10 @@
 		--uwp-shadow-popup: 0px 10px 20px 0px rgba(0, 0, 0, .32);
 		--uwp-popup-padding: 10px 20px 30px 20px;
 		--uwp-popup-margin: -12px 0px 0px -22px;
+
+		--uwp-titlebar-background: transparent;
+		--uwp-titlebar-background-hover: var(--titlebar-min-max-hover-bg-color);
+		--uwp-titlebar-background-active: var(--titlebar-min-max-active-bg-color);
 	}
 
 	:root {
