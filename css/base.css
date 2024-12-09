@@ -209,7 +209,6 @@
 	opacity: 1 !important;
 	left: 4px !important;
 	bottom: 4px !important;
-	fill: var(--uwp-global-front) !important;
 	fill-opacity: 1 !important;
 	padding: 0px !important;
 }
