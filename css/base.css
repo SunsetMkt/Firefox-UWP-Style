@@ -218,6 +218,20 @@
 	fill-opacity: 1 !important;
 	padding: 0px !important;
 }
+.tab-audio-button {
+	height: 26px !important;
+}
+button:has(> span[type="icon ghost"].button-background) {
+	border: none !important;
+	border-width: 0px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	background: transparent !important;
+}
+button > span[type="icon ghost"].button-background {
+	border-width: 0px !important;
+	border-radius: 50% !important;
+}
 .tab-icon-stack .tab-icon-image {
 	opacity: 1 !important;
 }
